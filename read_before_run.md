@@ -19,12 +19,22 @@ Pastikan Anda sudah menginstal perangkat lunak berikut:
    ```bash
    npm install
 
-3. **Menyiapkan Database di MongoDB** 
-   ```bash
-   Pastikan MongoDB berjalan di localhost:27017.
-   Ubah konfigurasi MongoDB di seeder.js (atau di file konfigurasi lainnya jika ada) jika Anda menggunakan URL koneksi yang berbeda.
-   File seeder.js digunakan untuk mengisi data awal (categories, authors, books, borrowers, dan book stocks) ke dalam database.
-   Jalankan file seeder.js dengan perintah node seeder.js
+## Menyiapkan Database di MongoDB
+
+1. Pastikan **MongoDB** berjalan di `localhost:27017`.
+   
+2. **Konfigurasi MongoDB**:
+   - Jika menggunakan URL koneksi yang berbeda, ubah konfigurasi MongoDB di file `seeder.js` atau di file konfigurasi lain yang relevan.
+   
+3. **Mengisi Data Awal (Seeding)**:
+   - File `seeder.js` digunakan untuk mengisi data awal (categories, authors, books, borrowers, dan book stocks) ke dalam database.
+   - Jalankan `seeder.js` dengan perintah berikut:
+     ```bash
+     node seeder.js
+     ```
+     
+   - Jika berhasil, Anda akan melihat pesan konfirmasi seperti "Database seeded successfully!" di terminal.
+
 
 2. **Menjalankan Server** 
    ```bash
