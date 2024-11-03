@@ -36,8 +36,23 @@ Pastikan Anda sudah menginstal perangkat lunak berikut:
    - Jika berhasil, Anda akan melihat pesan konfirmasi seperti "Database seeded successfully!" di terminal.
 
 
-2. **Menjalankan Server** 
-   ```bash
-   Setelah data berhasil diisi, Anda dapat menjalankan server aplikasi dengan perintah npm start
-   Server akan berjalan di http://localhost:3000. Anda dapat mengaksesnya melalui browser atau menggunakan API client seperti Insomnia.
+## Menjalankan Server
+
+Setelah data berhasil diisi, Anda dapat menjalankan server aplikasi dengan langkah berikut:
+
+1. **Menjalankan Server**:
+   - Gunakan perintah berikut untuk menjalankan server:
+     ```bash
+     npm start
+     ```
+
+2. **Akses Server**:
+   - Server akan berjalan di `http://localhost:3000`.
+   - Anda dapat mengakses server melalui browser atau menggunakan API client seperti **Insomnia** atau **Postman** untuk menguji endpoint API.
+   
+3. **Verifikasi**:
+   - Pastikan server berjalan dengan baik dan siap menerima permintaan dari client.
+
+Anda sekarang siap untuk mengakses aplikasi!
+
  
